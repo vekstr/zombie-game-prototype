@@ -880,8 +880,8 @@ MonoBehaviour:
   body: {fileID: 5367541146408678451}
   lives: 5
   moveSpeed: 5
-  turnSpeed: 5
-  cameraSpeed: 5
+  turnSpeed: 2
+  cameraSpeed: 1
   bodyRadius: 0.6
   joystickRadius: 120
   shoulderCameraPivotTransform: {fileID: 5367541145512955335}
