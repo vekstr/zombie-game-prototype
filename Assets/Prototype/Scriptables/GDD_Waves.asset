@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447f3b404670f2741b0a8f318c1f4874, type: 3}
+  m_Name: GDD_Waves
+  m_EditorClassIdentifier: 
+  startDelay: 5
+  waves:
+  - spawnSettings:
+    - spawnZombieSettings: {fileID: 11400000, guid: aa96eff880b03cc4681e5e11ad046512,
+        type: 2}
+      spawnCount: 10
+      extraSpawnSettings: []
+      spawnTogether: 0
+      spawnBottleneck: 10
+      spawnInterval: 3
+      isBoss: 0
+  - spawnSettings:
+    - spawnZombieSettings: {fileID: 11400000, guid: aa96eff880b03cc4681e5e11ad046512,
+        type: 2}
+      spawnCount: 5
+      extraSpawnSettings: []
+      spawnTogether: 1
+      spawnBottleneck: 10
+      spawnInterval: 0
+      isBoss: 0
+    - spawnZombieSettings: {fileID: 11400000, guid: aa96eff880b03cc4681e5e11ad046512,
+        type: 2}
+      spawnCount: 5
+      extraSpawnSettings: []
+      spawnTogether: 1
+      spawnBottleneck: 10
+      spawnInterval: 0
+      isBoss: 0
+    - spawnZombieSettings: {fileID: 11400000, guid: e0afd674bfbac204d8586495512f6442,
+        type: 2}
+      spawnCount: 1
+      extraSpawnSettings: []
+      spawnTogether: 1
+      spawnBottleneck: 10
+      spawnInterval: 0
+      isBoss: 0
+  - spawnSettings:
+    - spawnZombieSettings: {fileID: 11400000, guid: 4893b1ab95089d443a384273f96c8bd9,
+        type: 2}
+      spawnCount: 15
+      extraSpawnSettings: []
+      spawnTogether: 0
+      spawnBottleneck: 10
+      spawnInterval: 2
+      isBoss: 0
+  - spawnSettings:
+    - spawnZombieSettings: {fileID: 11400000, guid: 4893b1ab95089d443a384273f96c8bd9,
+        type: 2}
+      spawnCount: 10
+      extraSpawnSettings: []
+      spawnTogether: 1
+      spawnBottleneck: 10
+      spawnInterval: 0
+      isBoss: 0
+    - spawnZombieSettings: {fileID: 11400000, guid: 4893b1ab95089d443a384273f96c8bd9,
+        type: 2}
+      spawnCount: 5
+      extraSpawnSettings:
+      - spawnZombieSettings: {fileID: 11400000, guid: e0afd674bfbac204d8586495512f6442,
+          type: 2}
+        spawnCount: 1
+      spawnTogether: 1
+      spawnBottleneck: 10
+      spawnInterval: 0
+      isBoss: 0
+    - spawnZombieSettings: {fileID: 11400000, guid: e0afd674bfbac204d8586495512f6442,
+        type: 2}
+      spawnCount: 2
+      extraSpawnSettings: []
+      spawnTogether: 1
+      spawnBottleneck: 10
+      spawnInterval: 0
+      isBoss: 0
+  - spawnSettings:
+    - spawnZombieSettings: {fileID: 11400000, guid: c8981234e1ba93447921e3ebcd40f34f,
+        type: 2}
+      spawnCount: 20
+      extraSpawnSettings: []
+      spawnTogether: 0
+      spawnBottleneck: 15
+      spawnInterval: 2
+      isBoss: 0
+  - spawnSettings:
+    - spawnZombieSettings: {fileID: 11400000, guid: c8981234e1ba93447921e3ebcd40f34f,
+        type: 2}
+      spawnCount: 1000
+      extraSpawnSettings: []
+      spawnTogether: 0
+      spawnBottleneck: 15
+      spawnInterval: 2
+      isBoss: 0
+    - spawnZombieSettings: {fileID: 11400000, guid: b9947721743791d43af22bc2ba40900a,
+        type: 2}
+      spawnCount: 1
+      extraSpawnSettings: []
+      spawnTogether: 0
+      spawnBottleneck: 10
+      spawnInterval: 0
+      isBoss: 1
