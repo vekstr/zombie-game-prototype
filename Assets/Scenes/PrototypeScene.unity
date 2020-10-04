@@ -2249,7 +2249,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -23709,7 +23709,7 @@ Light:
   m_SpotAngle: 77
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -26177,7 +26177,7 @@ Light:
   m_SpotAngle: 77
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -28942,7 +28942,7 @@ Light:
   m_SpotAngle: 113
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -32368,6 +32368,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033280408}
     m_Modifications:
+    - target: {fileID: 5367541145298327529, guid: 5134734601118ab48abcb71e1c2cbea8,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5367541146408678445, guid: 5134734601118ab48abcb71e1c2cbea8,
         type: 3}
       propertyPath: m_Name
@@ -32527,6 +32532,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367541146508747318, guid: 5134734601118ab48abcb71e1c2cbea8,
+        type: 3}
+      propertyPath: m_RenderingPath
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5134734601118ab48abcb71e1c2cbea8, type: 3}
